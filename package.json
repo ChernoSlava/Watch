@@ -1,0 +1,46 @@
+{
+  "name": "watch",
+  "version": "1.0.0",
+  "description": "awesome react watch",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "storybook": "start-storybook -p 6010"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyAbretov/watch.git"
+  },
+  "keywords": [
+    "react",
+    "watch"
+  ],
+  "author": "Alexey Abretov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyAbretov/watch/issues"
+  },
+  "homepage": "https://github.com/AlexeyAbretov/watch#readme",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "4.11.1",
+    "html-webpack-plugin": "5.5.0",
+    "style-loader": "2.0.0",
+    "css-loader": "5.2.6",
+    "@storybook/react": "6.3.7",
+    "@storybook/builder-webpack5": "6.3.7",
+    "@storybook/manager-webpack5": "6.3.7",
+    "@storybook/addon-actions": "6.3.7",
+    "@storybook/addon-essentials": "6.3.7",
+    "ts-loader": "9.4.2"
+  }
+}
