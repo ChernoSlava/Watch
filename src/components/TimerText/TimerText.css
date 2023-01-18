@@ -1,0 +1,14 @@
+.TimerText {
+    color: black;
+
+}
+
+.TimerText_lg {
+    color: black;
+    font-size: 72px;
+}
+
+.TimerText_sm {
+    color: darkgray;
+    font-size: 24px;
+}
